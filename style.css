@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.side{
+    background-color: black;
+    width: 300px;
+    overflow: hidden;
+}
+
+.main{
+    background-color: black;
+    flex: 1;
+    overflow: auto;
+}
+
+.music{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    margin: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+.home{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.home i{
+    margin-left: 0.5rem;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+.search{
+    opacity: 0.7;
+}
+
+.search:hover{
+    opacity: 1;
+}
+
+.library{
+    background-color: #121212;
+    margin: 0.3rem;
+    border-radius: 0.4rem;
+    height: 100vh;
+}
+
+.l-top{
+    padding: 0.5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lib img{
+    height: 0.9rem;
+    margin-left: 1rem;
+}
+
+.lib span{
+    font-size: 0.9rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.icon i{
+    color: white;
+    margin: 0rem 1rem;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.icon i:hover{
+    opacity: 1;
+}
+
+.lib{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.lib:hover{
+    opacity: 1;
+}
+
+.card{
+    margin: 1rem 0.3rem;
+    border-radius: 0.4rem;
+    background-color: #212121;
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+.card p{
+    margin: 0.5rem 0rem;
+}
+
+.para1{
+    color: white;
+    font-weight: 600;
+}
+
+.para2{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.btn{
+    font-weight: 500;
+    border: none;
+    margin-top: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn1{
+    font-weight: 500;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    margin: 0.3rem;
+    border-radius: 0.4rem;
+    height: 3rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.right i{
+    color: white;
+}
+
+.marg{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.layout-card{
+    margin: 1rem;
+    margin-bottom: 60px;
+}
+
+.card1{
+    margin: 1rem 0.8rem 0.5rem 0rem;
+    width: 150px;
+    background-color: #212121;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.card1 img{
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.card1 p{
+    color: white;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.card-info{
+    font-size: 0.6rem;
+    opacity: 0.7;
+}
+
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    height: 300px;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.album{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.album img{
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+.album p{
+    margin: 0 0.3rem 0 1rem;
+    font-size: 0.8rem;
+}
+.album p span{
+    font-size: 0.5rem;
+}
+.album i{
+    margin-left: 1rem;
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+}
+.icon1 img{
+    height: 1rem;
+    margin: 0 1.5rem 0 1.5rem;
+}
+#play-pause{
+    height: 2rem;
+}
+.progress-bar{
+    width: 70%;
+    /* margin-top: 0.5rem; */
+    cursor: pointer;
+}
+
+.items{
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
